@@ -11,6 +11,7 @@
   --amber: #fff1cf;
   --red: #a93636;
   --grey: rgba(18, 13, 13, 0.201);
+  scroll-behavior: smooth;
 }
 body {
   margin: 0px;
@@ -50,6 +51,7 @@ a {
 }
 .Header ul {
   display: flex;
+  align-items: center;
   list-style-type: none;
 }
 .Header ul li {
@@ -57,17 +59,95 @@ a {
   font-weight: bolder;
   color: var(--muted);
 }
+.Login-Btn {
+  color: black;
+  border: 1px solid var(--grey);
+  padding: 10px 15px;
+  position: relative;
+  border-radius: 10px;
+}
+.Signin-Btn {
+  color: var(--surface);
+  border: 1px solid var(--grey);
+  background: var(--green);
+  padding: 10px 15px;
+  position: relative;
+  border-radius: 10px;
+}
+
+/*Introduction*/
 .Content-container {
-  position: absolute;
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
+/* .Content-container section:nth-child(1) {
+  height: 80vh;
+} */
 .Content-container section {
   height: 80vh;
   position: relative;
   border: 2px solid crimson;
+}
+.Intro-sect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Intro-txt {
+  font-size: 4em;
+  font-weight: bolder;
+  line-height: 0px;
+}
+.Intro-subtxt {
+  font-size: 1.4rem;
+}
+.Intro-Btn {
+  display: flex;
+  gap: 40px;
+}
+.Intro-Btn a {
+  padding: 15px 25px;
+  border: 0px;
+  background: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+.Intro-Btn a:nth-child(1) {
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+.Intro-Btn a:nth-child(2) {
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: var(--green);
+  color: var(--surface);
+  font-weight: bolder;
+}
+
+/*How it works*/
+.Explain-sect {
   display: flex;
   justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.Explain-words {
+  margin-top: 80px;
+}
+.Explain-peep {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: var(--green);
+}
+.Explain-instruction {
+  margin-top: 80px;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.Explain-end {
+  display: inline;
 }
