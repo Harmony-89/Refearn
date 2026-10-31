@@ -81,13 +81,12 @@ a {
   flex-direction: column;
   width: 100%;
 }
-/* .Content-container section:nth-child(1) {
-  height: 80vh;
-} */
+.Content-container section:nth-child(3) {
+  height: 60vh;
+}
 .Content-container section {
   height: 80vh;
   position: relative;
-  border: 2px solid crimson;
 }
 .Intro-sect {
   display: flex;
@@ -136,7 +135,7 @@ a {
   padding-top: 10px;
 }
 .Explain-words {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 .Explain-peep {
   font-size: 1.2rem;
@@ -144,10 +143,167 @@ a {
   color: var(--green);
 }
 .Explain-instruction {
-  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.Explain-instruction .Explain-TT {
+  margin-top: 60px;
+  margin-bottom: 0px;
   font-size: 4rem;
   font-weight: bolder;
 }
+
+/*card section*/
 .Explain-end {
-  display: inline;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+.feature-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 25px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.feature-icon {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 13px;
+  background: var(--mint);
+  color: var(--green);
+  font-size: 23px;
+  margin-bottom: 25px;
+}
+
+.step {
+  font-size: 9px;
+  letter-spacing: 0.13em;
+  color: var(--green);
+  font-weight: 850;
+}
+
+.feature-card h3 {
+  margin: 8px 0;
+  font-size: 17px;
+  letter-spacing: -0.025em;
+}
+
+.feature-card p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
+/* Reward Banner */
+.Extras {
+  display: flex;
+  justify-content: center;
+  height: 0%;
+}
+.Extras-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  background: var(--green);
+  color: white;
+  padding: 42px;
+  border-radius: 26px;
+  margin-top: 10px;
+  width: 60%;
+  height: 400px;
+}
+
+.Extras-Container .eyebrow {
+  color: #a9e7c9;
+  font-size: 1.4rem;
+}
+
+.Extras-Container h2 {
+  max-width: 450px;
+  font-size: 3rem;
+}
+
+.Extras-Container p {
+  color: #d2e5da;
+  max-width: 520px;
+  font-size: 1.2rem;
+}
+.Extra-signup {
+  margin-right: 20px;
+  background: var(--line);
+  color: var(--green-dark);
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+}
+
+/* FAQ */
+.Question {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.Question-container {
+  width: 850px;
+}
+.Question-heading {
+  text-align: center;
+}
+.Question-intro {
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--green);
+}
+.Question-heading p {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.Question-container details {
+  border-bottom: 1px solid var(--line);
+  padding: 19px 3px;
+}
+
+.Question-container summary {
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.Question-container details p {
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 720px;
+}
+
+/*Footer*/
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 15px;
+  padding: 15px 10px;
+  border-top: 1px solid var(--grey);
+  font-size: 1.1rem;
+}
+
+.site-footer .brand {
+  font-weight: bold;
+  color: var(--green);
+}
+
+.site-footer .brand-mark {
+  background-color: var(--green);
+  color: var(--canvas);
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.site-footer span {
+  font-weight: bold;
 }
