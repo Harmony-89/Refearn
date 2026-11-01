@@ -16,9 +16,9 @@
             <div class="Header">
                 <ul>
                     <li><a href="#How-it-works">How it works</a></li>
-                    <li><a href="">FAqs</a></li>
-                    <li><a href="" class="Login-Btn">Log in</a></li>
-                    <li><a href="" class="Signin-Btn">Get started</a></li>
+                    <li><a href="#faq">FAqs</a></li>
+                    <li><a href="login.php" class="Login-Btn">Log in</a></li>
+                    <li><a href="auth.php" class="Signin-Btn">Get started ↗</a></li>
                 </ul>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <p class="Intro-subtxt">Invite people to join, follow your referrals, and track eligible rewards from one simple dashboard.</p>
             <div class="Intro-Btn">
                 <a href="#How-it-works">How it works</a>
-                <a href="">Get started</a>
+                <a href="auth.php">Get started ↗</a>
             </div>
         </section>
         <section class="Explain-sect" id="How-it-works">
@@ -67,7 +67,7 @@
                     <h2>Know where every reward stands.</h2>
                     <p>See whether referrals are pending, qualified, or approved before you request a payout.</p>
                 </div>
-                <a class="Extra-signup" href="register.html">Create an account ↗</a>
+                <a class="Extra-signup" href="auth.php">Create an account ↗</a>
             </div>
         </section>
         <section class="Question" id="faq">
