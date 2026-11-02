@@ -22,7 +22,7 @@
 
     <div class="big-container">
 
-        <section class="login-container active" id="logPage">
+        <section class="login-container" id="logPage">
             <form action="loginquery.php" method="post">
                 <div class="logwrapper">
                     <div class="head">Welcome Back</div>
@@ -43,7 +43,7 @@
             </form>
         </section>
 
-        <section class="sign-container" id="signpage">
+        <section class="sign-container active" id="signpage">
             <form action="signinquery.php" method="post">
                 <div class="logwrapper">
                     <div class="head">Create your account</div>

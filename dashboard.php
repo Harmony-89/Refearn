@@ -29,54 +29,91 @@
                     <p class="mini-welcome">Here is a quick look referal activity</p>
                 </div>
             </section>
-            <section class="cards-section">
-                <div class="balance-card card">
-                    <p class="card-tt">Available balance</p>
-                    <p class="card-det">ksh 1000</p>
-                    <a href="" class="withdraw-card">Request withdraw</a>
-                </div>
-                <div class="total-card card">
-                    <p class="card-tt">Total rewards</p>
-                    <p class="card-det">ksh 590</p>
-                    <p class="mini-det">All rewards earned</p>
-                </div>
-                <div class="ref-card card">
-                    <p class="card-tt">Successful referals</p>
-                    <p class="card-det">25</p>
-                    <p class="mini-det">+2 this month</p>
-                </div>
-                <div class="pending-card card">
-                    <p class="card-tt">Pending referals</p>
-                    <p class="card-det">4</p>
-                    <p class="mini-det"> Awaiting approval</p>
-                </div>
-            </section>
-            <section class="referal-sect">
-                <p class="Referal-tt">Your referal link</p>
-                <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
-                <input type="text" placeholder="https://example.test/register?ref=JANE24">
-                <button>Copy link</button>
-            </section>
-            <Section class="Recent-act">
-                <div>
-                    <div>
-                        <p>Recent activity</p>
-                        <p>View all</p>
+            <section class="card-wrapper">
+                <section class="cards-section">
+                    <div class="balance-card card">
+                        <p class="card-tt">Available balance</p>
+                        <p class="card-det">ksh 630</p>
+                        <a href="" class="withdraw-card">Request withdrawal</a>
                     </div>
-                    <div>
+                    <div class="total-card card">
+                        <p class="card-tt">Total rewards</p>
+                        <p class="card-det">ksh 1590</p>
+                        <p class="mini-det">All rewards earned</p>
+                    </div>
+                    <div class="ref-card card">
+                        <p class="card-tt">Successful referals</p>
+                        <p class="card-det">25</p>
+                        <p class="mini-det">+2 this month</p>
+                    </div>
+                    <div class="pending-card card">
+                        <p class="card-tt">Pending referals</p>
+                        <p class="card-det">4</p>
+                        <p class="mini-det"> Awaiting approval</p>
+                    </div>
+                </section>
+                <section class="referal-sect">
+                    <p class="Referal-tt">Your referal link</p>
+                    <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
+                    <input type="text" placeholder="https://example.test/register?ref=JANE24">
+                    <button>Copy link</button>
+                </section>
+                <Section class="Recent-act">
+                    <div class="recent-tt">
+                        <p class="recent-act">Recent activity</p>
+                        <a href="" class="view-all">View all ↗</a>
+                    </div>
+                    <div class="rec-mini">
                         <p>Activity</p>
                         <p>Date</p>
                         <p>Status</p>
                     </div>
-                    <div>
+                    <div class="rec-det">
                         <p>ref#12-02928</p>
                         <p>10 june 2016</p>
-                        <p>approved</p>
+                        <p class="pass">approved</p>
                     </div>
-                </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="wait">pending</p>
+                    </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="pass">approved</p>
+                    </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="pass">approved</p>
+                    </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="pass">approved</p>
+                    </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="pass">approved</p>
+                    </div>
+                    <div class="rec-det">
+                        <p>ref#12-02928</p>
+                        <p>10 june 2016</p>
+                        <p class="pass">approved</p>
+                    </div>
+                </section>
             </section>
+            <footer class="site-footer">
+                <a class="brand" href="index.html">
+                    <span class="brand-mark">R</span> ReferEarn</a>
+                <span>© 2026 ReferEarn</span>
+            </footer>
         </Section>
     </section>
+
+
 </body>
 
 </html>
