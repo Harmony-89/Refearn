@@ -1,0 +1,250 @@
+:root {
+  --green: #145c43;
+  --green-dark: #103f31;
+  --mint: #d9f3e6;
+  --mint-strong: #a9e7c9;
+  --ink: #18251f;
+  --muted: #718078;
+  --line: #e4ebe6;
+  --surface: #fff;
+  --canvas: #f6f8f6;
+  --amber: #fff1cf;
+  --red: #a93636;
+  --grey: rgba(18, 13, 13, 0.201);
+  --light-crimson: #cd04041a;
+  --crimson: #ff0000;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--surface);
+  overflow-x: hidden;
+}
+.body-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.Head-replace {
+  border-right: 1px solid var(--grey);
+  background-color: var(--surface);
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  margin-left: 0px;
+}
+.Inner-head {
+  margin: 40px 10px 0px 25px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 10px;
+}
+.Work-icon {
+  background-color: var(--green);
+  color: var(--canvas);
+  padding: 4px 7px;
+  border-radius: 5px;
+}
+.MainTT {
+  color: var(--green-dark);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 15px;
+}
+.Header span {
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+.Header a:nth-child(1) {
+  margin-bottom: 0px;
+}
+.Header a {
+  color: var(--muted);
+  transition: all ease 0.2s;
+}
+.Header a:hover {
+  color: var(--ink);
+}
+
+.dashboard-wrapper {
+  width: 100%;
+  height: 100vh;
+  margin: 0px 24px;
+  margin-left: 220px;
+}
+
+/*main content*/
+.Welcome-note {
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 10px;
+  width: 100%;
+  height: 80px;
+  margin-top: 100px;
+}
+.Welcome-note .Welcome-name {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: var(--green);
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+.mini-welcome {
+  color: var(--ink);
+}
+
+.card-wrapper {
+  padding: 0px 30px 0px 20px;
+}
+.cards-section {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  width: 92%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey);
+  padding: 0px 15px;
+  border-radius: 20px;
+}
+.card-tt {
+  color: var(--muted);
+}
+.card-det {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.withdraw-card {
+  margin-top: 10px;
+  background: var(--green);
+  width: 140px;
+  padding: 6px 20px;
+  border-radius: 20px;
+  color: var(--surface);
+}
+.mini-det {
+  color: var(--green);
+}
+
+.referal-sect {
+  margin-top: 30px;
+  border: 1px solid var(--grey);
+  width: 70%;
+  padding: 15px 30px;
+  border-radius: 20px;
+}
+.Referal-tt {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 1.04rem;
+}
+.refmini-tt {
+  color: var(--muted);
+}
+.referal-sect input {
+  border: 1px solid var(--grey);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  width: 400px;
+}
+.referal-sect input::placeholder {
+  color: black;
+  font-size: 1rem;
+}
+.referal-sect button {
+  margin-left: 15px;
+  border: 1px solid var(--grey);
+  padding: 10px 20px;
+  background: var(--green);
+  color: var(--surface);
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Recent-act {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey);
+  border-radius: 20px;
+  padding: 5px 30px;
+  width: 88%;
+  margin-bottom: 100px;
+  height: 350px;
+  overflow-y: scroll;
+}
+.recent-tt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.recent-act {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--green-dark);
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+
+.rec-mini {
+  display: flex;
+  gap: 20px;
+  padding: 0px 30px 0px 5px;
+  margin-top: 10px;
+  border-bottom: 1px solid var(--grey);
+  color: var(--muted);
+}
+.rec-det {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 5px;
+  border-bottom: 1px solid var(--grey);
+}
+.mini-recwrapper {
+  margin-left: 30px;
+}
+.amount-paid {
+  font-weight: bold;
+  font-size: 1.09rem;
+  margin-bottom: 0px;
+}
+.pass {
+  color: var(--green);
+  background: var(--mint);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.wait {
+  color: var(--red);
+  background: var(--amber);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.fail {
+  color: var(--crimson);
+  background: var(--light-crimson);
+  padding: 5px 10px;
+  border-radius: 10px;
+}

@@ -47,9 +47,8 @@ a {
 .Work-icon {
   background-color: var(--green);
   color: var(--canvas);
-  padding: 4px 13px;
+  padding: 4px 7px;
   border-radius: 5px;
-  margin-right: 8px;
 }
 .MainTT {
   color: var(--green-dark);
@@ -109,7 +108,7 @@ a {
 .cards-section {
   margin-top: 70px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 40px;
   width: 92%;
 }

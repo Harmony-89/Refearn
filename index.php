@@ -17,8 +17,8 @@
                 <ul>
                     <li><a href="#How-it-works">How it works</a></li>
                     <li><a href="#faq">FAqs</a></li>
-                    <li><a href="login.php" class="Login-Btn">Log in</a></li>
-                    <li><a href="auth.php" class="Signin-Btn">Get started ↗</a></li>
+                    <li><a href="auth.php?mode=login" class="Login-Btn" id="loginbtn1">Log in</a></li>
+                    <li><a href="auth.php?mode=register" class="Signin-Btn" id="signinbtn1">Get started ↗</a></li>
                 </ul>
             </div>
         </div>
@@ -67,7 +67,7 @@
                     <h2>Know where every reward stands.</h2>
                     <p>See whether referrals are pending, qualified, or approved before you request a payout.</p>
                 </div>
-                <a class="Extra-signup" href="auth.php">Create an account ↗</a>
+                <a class="Extra-signup" href="auth.php" id="signinbtn1">Create an account ↗</a>
             </div>
         </section>
         <section class="Question" id="faq">
@@ -96,6 +96,7 @@
             <span class="brand-mark">R</span> ReferEarn</a>
         <span>© 2026 ReferEarn</span>
     </footer>
+    <script src="auth.js"></script>
 </body>
 
 </html>

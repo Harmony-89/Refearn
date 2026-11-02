@@ -51,7 +51,6 @@ header {
   color: var(--canvas);
   padding: 3px 10px;
   border-radius: 5px;
-  margin-right: 5px;
 }
 .MainTT {
   color: var(--green-dark);
@@ -76,12 +75,9 @@ a {
 /*signin*/
 .sign-container,
 .login-container {
-  display: none;
-}
-
-.active {
   display: block;
 }
+
 /*everything*/
 .big-container {
   height: 100vh;
@@ -154,4 +150,6 @@ a {
 .signin .anchor:hover {
   border-bottom: 1px solid var(--green-dark);
   color: var(--green-dark);
+}
+.Submit-btn {
 }

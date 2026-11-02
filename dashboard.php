@@ -12,38 +12,44 @@
     <section class="body-wrapper">
         <div class="Head-replace">
             <div class="Inner-head">
-                <div class="MainTT"><span class="Work-icon"><a href="#Home">R</span>Refearn</a>
+                <div class="MainTT"><span class="Work-icon"><a href="#Home">R</span>efearnTasks</a>
                 </div>
                 <div class="Header">
                     <span>WORKSPACE</span>
-                    <a href="">▦ Overview</a>
-                    <a href="">♧ My Referals</a>
-                    <a href="">⇧ Withdrawals</a>
+                    <a href="#dash-home">▦ Overview</a>
+                    <a href="referals.php">♧ My Referals</a>
+                    <a href="">⁜ My tasks</a>
+                    <a href="withdrawal.php">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
-        <Section class="dashboard-wrapper">
+        <Section class="dashboard-wrapper" id="dash-home">
             <section class="Intro-head">
                 <div class="Welcome-note">
                     <p class="Welcome-name">Welcome back Henry</p>
-                    <p class="mini-welcome">Here is a quick look referal activity</p>
+                    <p class="mini-welcome">Here is a quick look of your activity.</p>
                 </div>
             </section>
             <section class="card-wrapper">
                 <section class="cards-section">
                     <div class="balance-card card">
                         <p class="card-tt">Available balance</p>
-                        <p class="card-det">ksh 630</p>
-                        <a href="" class="withdraw-card">Request withdrawal</a>
+                        <p class="card-det">ksh 560</p>
+                        <a href="withdrawal.php" class="withdraw-card">Request withdrawal</a>
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Total rewards</p>
-                        <p class="card-det">ksh 1590</p>
+                        <p class="card-det">ksh 2350</p>
                         <p class="mini-det">All rewards earned</p>
+                    </div>
+                    <div class="total-card card">
+                        <p class="card-tt">Tasks completed</p>
+                        <p class="card-det">13</p>
+                        <p class="mini-det"></p>
                     </div>
                     <div class="ref-card card">
                         <p class="card-tt">Successful referals</p>
-                        <p class="card-det">25</p>
+                        <p class="card-det">30</p>
                         <p class="mini-det">+2 this month</p>
                     </div>
                     <div class="pending-card card">
@@ -55,7 +61,7 @@
                 <section class="referal-sect">
                     <p class="Referal-tt">Your referal link</p>
                     <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
-                    <input type="text" placeholder="https://example.test/register?ref=JANE24">
+                    <input type="text" placeholder="https://refearn.co.ke/register.php?ref=henry89">
                     <button>Copy link</button>
                 </section>
                 <Section class="Recent-act">
@@ -70,37 +76,32 @@
                     </div>
                     <div class="rec-det">
                         <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
-                        <p class="pass">approved</p>
-                    </div>
-                    <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>1 november 2026</p>
                         <p class="wait">pending</p>
                     </div>
                     <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>ref#12-02028</p>
+                        <p>27 november 2026</p>
                         <p class="pass">approved</p>
                     </div>
                     <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>ref#12-02078</p>
+                        <p>25 november 2026</p>
                         <p class="pass">approved</p>
                     </div>
                     <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>ref#12-02028</p>
+                        <p>20 november 2026</p>
                         <p class="pass">approved</p>
                     </div>
                     <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>ref#12-02011</p>
+                        <p>19 november 2026</p>
                         <p class="pass">approved</p>
                     </div>
                     <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>10 june 2016</p>
+                        <p>ref#12-01998</p>
+                        <p>16 september 2026</p>
                         <p class="pass">approved</p>
                     </div>
                 </section>
