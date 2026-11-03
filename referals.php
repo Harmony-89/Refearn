@@ -45,7 +45,7 @@
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Paid out</p>
-                        <p class="card-det">ksh950</p>
+                        <p class="card-det">ksh 950</p>
                         <p class="mini-det">Succesfully withdrawn</p>
                     </div>
                 </section>
