@@ -17,7 +17,7 @@
                 </div>
                 <div class="Header">
                     <span>WORKSPACE</span>
-                    <a href="dashboard.php">▦ Overview</a>
+                    <a href="admin.php">▦ Overview</a>
                     <a href="#refer-home">♧ My Referals</a>
                     <a href="">⁜ My tasks</a>
                     <a href="withdrawal.php">⇧ Withdrawals</a>

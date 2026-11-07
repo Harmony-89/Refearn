@@ -39,7 +39,7 @@
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Total rewards</p>
-                        <p class="card-det">ksh 2350</p>
+                        <p class="card-det">ksh 6350</p>
                         <p class="mini-det">All rewards earned</p>
                     </div>
                     <div class="total-card card">

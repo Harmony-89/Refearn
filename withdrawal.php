@@ -40,12 +40,12 @@
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Total earning</p>
-                        <p class="card-det">ksh 2350</p>
+                        <p class="card-det">ksh 6350</p>
                         <p class="mini-det">All time</p>
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Paid out</p>
-                        <p class="card-det">ksh950</p>
+                        <p class="card-det">ksh 5790</p>
                         <p class="mini-det">Succesfully withdrawn</p>
                     </div>
                     <div class="total-card card">
@@ -88,6 +88,34 @@
                     <div class="rec-det">
                         <div class="mini-recwrapper">
                             <p class="amount-paid">ksh 1030</p>
+                            <p>1 november 2026</p>
+                        </div>
+                        <p class="pass">completed</p>
+                    </div>
+                    <div class="rec-det">
+                        <div class="mini-recwrapper">
+                            <p class="amount-paid">ksh 130</p>
+                            <p>1 november 2026</p>
+                        </div>
+                        <p class="fail">failed</p>
+                    </div>
+                    <div class="rec-det">
+                        <div class="mini-recwrapper">
+                            <p class="amount-paid">ksh 700</p>
+                            <p>1 november 2026</p>
+                        </div>
+                        <p class="pass">completed</p>
+                    </div>
+                    <div class="rec-det">
+                        <div class="mini-recwrapper">
+                            <p class="amount-paid">ksh 300</p>
+                            <p>1 november 2026</p>
+                        </div>
+                        <p class="pass">completed</p>
+                    </div>
+                    <div class="rec-det">
+                        <div class="mini-recwrapper">
+                            <p class="amount-paid">ksh 830</p>
                             <p>1 november 2026</p>
                         </div>
                         <p class="pass">completed</p>
