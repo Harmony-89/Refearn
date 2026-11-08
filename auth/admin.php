@@ -17,8 +17,8 @@
                 <div class="Header">
                     <span>ADMIN</span>
                     <a href="admin.php">▦ Overview</a>
-                    <a href="AdTrans.php">⇧ Referals</a>
-                    <a href="AdRef.php">♧ Users</a>
+                    <a href="AdRef.php">⇧ Referals</a>
+                    <a href="AdUser.php">♧ Users</a>
                     <a href="">⁜ Transactions</a>
                     <a href="">⇧ Withdrawals</a>
                 </div>

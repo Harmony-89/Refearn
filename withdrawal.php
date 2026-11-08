@@ -59,7 +59,7 @@
                         <p class="Referal-tt">Request withdrawal</p>
                         <p class="refmini-tt">You can request a payout of your available earnings</p>
                     </div>
-                    <button class="withdraw">Withdraw ⇓</button>
+                    <button class="withdraw" id="open">Withdraw ⇓</button>
                 </section>
                 <Section class="Recent-act">
                     <div class="recent-tt">
@@ -130,7 +130,48 @@
                 </Section>
             </section>
         </Section>
+        <section class="WithdrawDet" id="WithPage">
+            <div class="Withdraw-Cont">
+                <div class="WithdrawCard-Tt">
+                    <div class="WithdrawCard-MiniTT">
+                        <p class="WithdrawC-minitt">Request withdrawal</p>
+                        <p class="WithdrawC-tt">Enter your details for your mpesa withdrawal</p>
+                    </div>
+                    <p class="WithdrawSect-close" id="close">×</p>
+                </div>
+                <div class="WithdrawSect-det">
+                    <p>Enter the amount to withdraw</p>
+                    <input type="text">
+                </div>
+                <div class="WithdrawSect-det">
+                    <p>Enter your M-pesa number</p>
+                    <input type="text">
+                </div>
+                <div class="WithdrawSect-lower">
+                    <p>Amount requested 300</p>
+                    <button>Request withdrawal</button>
+                </div>
+                <div class="WithdrawSect-caution">
+                    <p>Your request will be reviewed before payment is processed.</p>
+                </div>
+            </div>
+        </section>
     </section>
 </body>
+<Script>
+    const Open = document.getElementById("open");
+    const Close = document.getElementById("close");
+
+    const Page = document.getElementById("WithPage");
+
+
+    Open.addEventListener("click", function() {
+        Page.classList.add("Ready");
+    });
+
+    Close.addEventListener("click", function() {
+        Page.classList.remove("Ready");
+    });
+</Script>
 
 </html>

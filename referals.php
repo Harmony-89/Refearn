@@ -17,7 +17,7 @@
                 </div>
                 <div class="Header">
                     <span>WORKSPACE</span>
-                    <a href="admin.php">▦ Overview</a>
+                    <a href="dashboard.php">▦ Overview</a>
                     <a href="#refer-home">♧ My Referals</a>
                     <a href="">⁜ My tasks</a>
                     <a href="withdrawal.php">⇧ Withdrawals</a>
@@ -52,8 +52,8 @@
                 <section class="referal-sect">
                     <p class="Referal-tt">Your referal link</p>
                     <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
-                    <input type="text" placeholder="https://refearn.co.ke/register.php?ref=henry89">
-                    <button>Copy link</button>
+                    <input type="text" id="referralLink" value="https://refearn.co.ke/register.php?ref=henry89">
+                    <button id="copyBtn">Copy link</button>
                 </section>
                 <Section class="Recent-act">
                     <div class="recent-tt">
@@ -99,6 +99,16 @@
             </section>
         </Section>
     </section>
+    <script>
+        const input = document.getElementById("referralLink");
+        const copyBtn = document.getElementById("copyBtn");
+
+        copyBtn.addEventListener("click", async function() {
+            await navigator.clipboard.writeText(input.value);
+
+            alert("Copied successfully!");
+        });
+    </script>
 </body>
 
 </html>

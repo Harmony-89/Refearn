@@ -17,10 +17,10 @@
                 <div class="Header">
                     <span>ADMIN</span>
                     <a href="admin.php">▦ Overview</a>
-                    <a href="AdTrans.php">⇧ Referals</a>
-                    <a href="AdRef.php">♧ Users</a>
+                    <a href="AdRef.php">⇧ Referals</a>
+                    <a href="AdUser.php">♧ Users</a>
                     <a href="">⁜ Transactions</a>
-                    <a href="#withdraw-home">⇧ Withdrawals</a>
+                    <a href="">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
@@ -34,54 +34,47 @@
             <section class="card-wrapper">
                 <section class="cards-section">
                     <div class="ref-card card">
-                        <p class="card-tt">Total users</p>
-                        <p class="card-det">ksh 790</p>
-                        <p class="mini-det">+2 this month</p>
+                        <p class="card-tt">Total referals</p>
+                        <p class="card-det">2790</p>
                     </div>
                     <div class="total-card card">
-                        <p class="card-tt">New users</p>
-                        <p class="card-det">ksh 10</p>
-                        <p class="mini-det">Past 7 days</p>
+                        <p class="card-tt">Qualified referals</p>
+                        <p class="card-det">2500</p>
                     </div>
                     <div class="total-card card">
-                        <p class="card-tt">Successful referals</p>
-                        <p class="card-det">650</p>
-                    </div>
-                    <div class="total-card card">
-                        <p class="card-tt">Pending referals</p>
-                        <p class="card-det">5</p>
+                        <p class="card-tt">Pending Referals</p>
+                        <p class="card-det">290</p>
                     </div>
                 </section>
-                <Section class="Recent-act">
-                    <div class="recent-tt">
-                        <p class="recent-act">Recent activity</p>
-                        <a href="" class="view-all">View all ↗</a>
-                    </div>
-                    <div class="rec-mini">
-                        <p>Activity</p>
-                        <p>Date</p>
-                        <p>Status</p>
-                    </div>
-                    <div class="rec-det">
-                        <p>ref#12-02928</p>
-                        <p>1 november 2026</p>
-                        <p class="wait">pending</p>
-                    </div>
-                    <div class="rec-det">
-                        <p>ref#12-02028</p>
-                        <p>27 november 2026</p>
-                        <p class="pass">approved</p>
-                    </div>
-                    <div class="rec-det">
-                        <p>ref#12-02078</p>
-                        <p>25 november 2026</p>
-                        <p class="pass">approved</p>
-                    </div>
-                </Section>
+            </section>
+            <Section class="Recent-act">
+                <div class="recent-tt">
+                    <p class="recent-act">Recent activity</p>
+                    <a href="" class="view-all">View all ↗</a>
+                </div>
+                <div class="rec-mini">
+                    <p>Activity</p>
+                    <p>Date</p>
+                    <p>Status</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
             </Section>
-        </section>
+        </Section>
     </section>
-
     <script>
         const currentHour = new Date().getHours();
 

@@ -109,7 +109,7 @@ a {
 .cards-section {
   margin-top: 70px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   width: 92%;
 }
@@ -117,7 +117,7 @@ a {
   display: flex;
   flex-direction: column;
   border: 1px solid var(--grey);
-  padding: 0px 15px;
+  padding: 10px 15px;
   border-radius: 20px;
 }
 .card-tt {
@@ -182,4 +182,10 @@ a {
   align-items: center;
   padding: 0px 30px 0px 5px;
   border-bottom: 1px solid var(--grey);
+}
+
+.platform-det {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
 }
