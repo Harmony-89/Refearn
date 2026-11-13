@@ -17,12 +17,10 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: var(--surface);
-  overflow-x: hidden;
 }
 .body-wrapper {
   display: flex;
   flex-direction: row;
-  padding-bottom: 100px;
   width: 100%;
 }
 .Head-replace {
@@ -79,8 +77,6 @@ a {
 /*dashboard*/
 .dashboard-wrapper {
   width: 100%;
-  height: 100vh;
-  margin: 0px 24px;
   margin-left: 220px;
 }
 
@@ -149,7 +145,7 @@ a {
   border-radius: 20px;
   padding: 5px 30px;
   width: 88%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-bottom: 30px;
 }
 .recent-tt {
@@ -188,4 +184,17 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+}
+
+.pass {
+  color: var(--green);
+  background: var(--mint);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.wait {
+  color: var(--red);
+  background: var(--amber);
+  padding: 5px 10px;
+  border-radius: 10px;
 }

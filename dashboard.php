@@ -61,7 +61,13 @@
                 <section class="referal-sect">
                     <p class="Referal-tt">Your referal link</p>
                     <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
-                    <input type="text" id="referralLink" value="https://refearn.co.ke/register.php?ref=henry89">
+                    <input type="text" id="referralLink" value=" <?php
+                                                                    $username = "Henry";
+                                                                    $webUrl = "https://refearn.com/register.php?ref=";
+                                                                    $randomCode = strtoupper(bin2hex(random_bytes(3)));
+                                                                    $referralCode = $webUrl . strtoupper($username) . $randomCode;
+                                                                    echo $referralCode
+                                                                    ?>">
                     <button id="copyBtn">Copy link</button>
                 </section>
                 <Section class="Recent-act">
@@ -138,8 +144,7 @@
 
         copyBtn.addEventListener("click", async function() {
             await navigator.clipboard.writeText(input.value);
-
-            alert("Copied successfully!");
+            copyBtn.innerHTML = ("Copied");
         });
     </script>
 

@@ -59,17 +59,17 @@
                         <p class="Referal-tt">Request withdrawal</p>
                         <p class="refmini-tt">You can request a payout of your available earnings</p>
                     </div>
-                    <button class="withdraw" id="open">Withdraw ⇓</button>
+                    <button class="withdraw" id="open">Withdraw <p class="Icon">⇓</p></button>
                 </section>
                 <Section class="Recent-act">
                     <div class="recent-tt">
                         <p class="recent-act">Payout history</p>
                     </div>
                     <div class="rec-mini">
-                        <p>All</p>
-                        <p>Pending</p>
-                        <p>Completed</p>
-                        <p>Failed</p>
+                        <p class="All">All</p>
+                        <p class="Pending">Pending</p>
+                        <p class="Completed">Completed</p>
+                        <p class="Failed">Failed</p>
                     </div>
                     <div class="rec-det">
                         <div class="mini-recwrapper">

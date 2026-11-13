@@ -83,6 +83,7 @@ a {
   height: 100vh;
   margin: 0px 24px;
   margin-left: 220px;
+  padding-bottom: 50px;
 }
 
 /*main content*/
@@ -165,10 +166,38 @@ a {
   border: 1px solid var(--grey);
   background: var(--green);
   color: var(--surface);
-  padding: 10px 30px;
+  padding: 0px 17px;
   border-radius: 20px;
   font-size: 0.9rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.2s linear;
+}
+.referal-sect button:hover .Icon {
+  animation: dropIcon 0.3s linear;
+}
+@keyframes dropIcon {
+  0% {
+    transform: translatey(0);
+  }
+
+  50% {
+    transform: translatey(55px);
+  }
+
+  51% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+.referal-sect button:hover {
+  background: var(--green);
+  box-shadow: 1px 1px 5px var(--ink);
 }
 .Recent-act {
   margin-top: 30px;
@@ -205,6 +234,13 @@ a {
   margin-top: 10px;
   border-bottom: 1px solid var(--grey);
   color: var(--muted);
+}
+.rec-mini p {
+  cursor: pointer;
+  margin-right: 13px;
+}
+.rec-mini p:hover {
+  color: var(--green);
 }
 .rec-det {
   display: flex;

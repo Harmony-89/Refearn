@@ -91,7 +91,7 @@
         }
 
         document.getElementById("greeting").textContent =
-            `${greeting}, Henry!`;
+            `${greeting}, Starnley`;
     </script>
 </body>
 

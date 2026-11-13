@@ -20,7 +20,6 @@
                     <a href="AdRef.php">⇧ Referals</a>
                     <a href="AdUser.php">♧ Users</a>
                     <a href="">⁜ Transactions</a>
-                    <a href="">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
@@ -36,7 +35,7 @@
                     <div class="ref-card card">
                         <p class="card-tt">Total users</p>
                         <p class="card-det">ksh 790</p>
-                        <p class="mini-det">+2 this month</p>
+                        <p class="mini-det">+82 this month</p>
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Total income</p>
@@ -45,12 +44,12 @@
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Successful referals</p>
-                        <p class="card-det">650</p>
+                        <p class="card-det">720</p>
                         <p class="mini-det">Succesfully withdrawn</p>
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">Pending withdrawals</p>
-                        <p class="card-det">5</p>
+                        <p class="card-det">4</p>
                         <p class="mini-det">Succesfully withdrawn</p>
                     </div>
                 </section>
@@ -82,24 +81,28 @@
             <Section class="Recent-act">
                 <div class="recent-tt">
                     <p class="recent-act">Recent activity</p>
-                    <a href="" class="view-all">View all ↗</a>
+                    <a href="Transactions.php" class="view-all">View all ↗</a>
                 </div>
                 <div class="rec-mini">
                     <p>Activity</p>
+                    <p>Reference</p>
                     <p>Date</p>
                     <p>Status</p>
                 </div>
                 <div class="rec-det">
+                    <p>Withdrwal</p>
                     <p>ref#12-02928</p>
                     <p>1 november 2026</p>
                     <p class="wait">pending</p>
                 </div>
                 <div class="rec-det">
+                    <p>Joined</p>
                     <p>ref#12-02028</p>
                     <p>27 november 2026</p>
                     <p class="pass">approved</p>
                 </div>
                 <div class="rec-det">
+                    <p>Joined</p>
                     <p>ref#12-02078</p>
                     <p>25 november 2026</p>
                     <p class="pass">approved</p>
@@ -123,7 +126,7 @@
         }
 
         document.getElementById("greeting").textContent =
-            `${greeting}, Henry!`;
+            `${greeting}, Starnley.`;
     </script>
 </body>
 

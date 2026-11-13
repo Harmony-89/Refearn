@@ -36,7 +36,7 @@
                     <div class="ref-card card">
                         <p class="card-tt">Total users</p>
                         <p class="card-det">ksh 790</p>
-                        <p class="mini-det">+2 this month</p>
+                        <p class="mini-det">+32 this month</p>
                     </div>
                     <div class="total-card card">
                         <p class="card-tt">New users</p>
@@ -98,7 +98,7 @@
         }
 
         document.getElementById("greeting").textContent =
-            `${greeting}, Henry!`;
+            `${greeting}, Starnley.`;
     </script>
 </body>
 

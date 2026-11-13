@@ -183,3 +183,16 @@ a {
   padding: 0px 30px 0px 5px;
   border-bottom: 1px solid var(--grey);
 }
+
+.pass {
+  color: var(--green);
+  background: var(--mint);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.wait {
+  color: var(--red);
+  background: var(--amber);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
