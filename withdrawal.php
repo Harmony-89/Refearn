@@ -141,14 +141,16 @@
                 </div>
                 <div class="WithdrawSect-det">
                     <p>Enter the amount to withdraw</p>
-                    <input type="text">
+                    <input type="text" placeholder="Minimum 300">
                 </div>
                 <div class="WithdrawSect-det">
                     <p>Enter your M-pesa number</p>
-                    <input type="text">
+                    <input type="text" placeholder="Start with 07.... or 01....">
                 </div>
                 <div class="WithdrawSect-lower">
-                    <p>Amount requested 300</p>
+                    <div class="amount-shower">Amount requested:
+                        <div class="amountOut">300</div>
+                    </div>
                     <button>Request withdrawal</button>
                 </div>
                 <div class="WithdrawSect-caution">

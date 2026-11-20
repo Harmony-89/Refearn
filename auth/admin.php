@@ -16,14 +16,15 @@
                 </div>
                 <div class="Header">
                     <span>ADMIN</span>
-                    <a href="admin.php">▦ Overview</a>
+                    <a href="#admin-home">▦ Overview</a>
                     <a href="AdRef.php">⇧ Referals</a>
                     <a href="AdUser.php">♧ Users</a>
-                    <a href="">⁜ Transactions</a>
+                    <a href="Transactions.php">⁜ Transactions</a>
+                    <a href="withdrawal.php">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
-        <Section class="dashboard-wrapper" id="withdraw-home">
+        <Section class="dashboard-wrapper" id="admin-home">
             <section class="Intro-head">
                 <div class="Welcome-note">
                     <p class="Welcome-name" id="greeting"></p>
@@ -32,29 +33,37 @@
             </section>
             <section class="card-wrapper">
                 <section class="cards-section">
-                    <div class="ref-card card">
-                        <p class="card-tt">Total users</p>
-                        <p class="card-det">ksh 790</p>
-                        <p class="mini-det">+82 this month</p>
-                    </div>
-                    <div class="total-card card">
-                        <p class="card-tt">Total income</p>
-                        <p class="card-det">ksh 130050</p>
-                        <p class="mini-det">All time</p>
-                    </div>
-                    <div class="total-card card">
-                        <p class="card-tt">Successful referals</p>
-                        <p class="card-det">720</p>
-                        <p class="mini-det">Succesfully withdrawn</p>
-                    </div>
-                    <div class="total-card card">
-                        <p class="card-tt">Pending withdrawals</p>
-                        <p class="card-det">4</p>
-                        <p class="mini-det">Succesfully withdrawn</p>
-                    </div>
+                    <a href="AdUser.php">
+                        <div class="ref-card card">
+                            <p class="card-tt">Total users</p>
+                            <p class="card-det">ksh 790</p>
+                            <p class="mini-det">+82 this month</p>
+                        </div>
+                    </a>
+                    <a href="Transactions.php">
+                        <div class="total-card card">
+                            <p class="card-tt">Total income</p>
+                            <p class="card-det">ksh 130050</p>
+                            <p class="mini-det">All time</p>
+                        </div>
+                    </a>
+                    <a href="AdRef.php">
+                        <div class="total-card card">
+                            <p class="card-tt">Successful referals</p>
+                            <p class="card-det">720</p>
+                            <p class="mini-det">Succesfully withdrawn</p>
+                        </div>
+                    </a>
+                    <a href="withdrawal.php">
+                        <div class="total-card card">
+                            <p class="card-tt">Pending withdrawals</p>
+                            <p class="card-det">4</p>
+                            <p class="mini-det">Succesfully withdrawn</p>
+                        </div>
+                    </a>
                 </section>
             </section>
-            <Section class="Recent-act">
+            <Section class="Recent-plat">
                 <div class="recent-tt">
                     <p class="recent-act">Platform activity</p>
                     <a href="" class="view-all">Last 7 days</a>
@@ -88,6 +97,42 @@
                     <p>Reference</p>
                     <p>Date</p>
                     <p>Status</p>
+                </div>
+                <div class="rec-det">
+                    <p>Withdrwal</p>
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Withdrwal</p>
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
                 </div>
                 <div class="rec-det">
                     <p>Withdrwal</p>

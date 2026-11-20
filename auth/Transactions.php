@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/admin.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/Transaction.css?v=<?php echo time(); ?>">
     <title>Document</title>
 </head>
 
@@ -19,11 +19,12 @@
                     <a href="admin.php">▦ Overview</a>
                     <a href="AdRef.php">⇧ Referals</a>
                     <a href="AdUser.php">♧ Users</a>
-                    <a href="">⁜ Transactions</a>
+                    <a href="#Transaction-home">⁜ Transactions</a>
+                    <a href="withdrawal.php">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
-        <Section class="dashboard-wrapper" id="withdraw-home">
+        <Section class="dashboard-wrapper" id="Transaction-home">
             <section class="Intro-head">
                 <div class="Welcome-note">
                     <p class="Welcome-name" id="greeting"></p>
@@ -54,7 +55,7 @@
                     </div>
                 </section>
             </section>
-            <Section class="Recent-act">
+            <Section class="Recent-plat">
                 <div class="recent-tt">
                     <p class="recent-act">Platform activity</p>
                     <a href="" class="view-all">Last 7 days</a>
@@ -88,6 +89,60 @@
                     <p>Reference</p>
                     <p>Date</p>
                     <p>Status</p>
+                </div>
+                <div class="rec-det">
+                    <p>Withdrwal</p>
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Withdrwal</p>
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Withdrwal</p>
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>Joined</p>
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
                 </div>
                 <div class="rec-det">
                     <p>Withdrwal</p>

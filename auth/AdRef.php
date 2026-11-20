@@ -17,14 +17,14 @@
                 <div class="Header">
                     <span>ADMIN</span>
                     <a href="admin.php">▦ Overview</a>
-                    <a href="AdRef.php">⇧ Referals</a>
+                    <a href="#Ref-home">⇧ Referals</a>
                     <a href="AdUser.php">♧ Users</a>
-                    <a href="">⁜ Transactions</a>
-                    <a href="">⇧ Withdrawals</a>
+                    <a href="Transactions.php">⁜ Transactions</a>
+                    <a href="withdrawal.php">⇧ Withdrawals</a>
                 </div>
             </div>
         </div>
-        <Section class="dashboard-wrapper" id="withdraw-home">
+        <Section class="dashboard-wrapper" id="Ref-home">
             <section class="Intro-head">
                 <div class="Welcome-note">
                     <p class="Welcome-name" id="greeting"></p>
@@ -56,6 +56,51 @@
                     <p>Activity</p>
                     <p>Date</p>
                     <p>Status</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02928</p>
+                    <p>1 november 2026</p>
+                    <p class="wait">pending</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02028</p>
+                    <p>27 november 2026</p>
+                    <p class="pass">approved</p>
+                </div>
+                <div class="rec-det">
+                    <p>ref#12-02078</p>
+                    <p>25 november 2026</p>
+                    <p class="pass">approved</p>
                 </div>
                 <div class="rec-det">
                     <p>ref#12-02928</p>

@@ -12,17 +12,18 @@
   --red: #a93636;
   --grey: rgba(18, 13, 13, 0.201);
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   margin: 0px;
   padding: 0px;
   background-color: var(--surface);
   overflow-x: hidden;
+  width: 100%;
 }
 .body-wrapper {
   display: flex;
   flex-direction: row;
-  padding-bottom: 100px;
   width: 100%;
 }
 .Head-replace {
@@ -79,7 +80,6 @@ a {
 /*dashboard*/
 .dashboard-wrapper {
   width: 100%;
-  height: 100vh;
   margin: 0px 24px;
   margin-left: 220px;
 }
@@ -234,6 +234,9 @@ a {
   padding: 5px 10px;
   border-radius: 10px;
 }
+.b2 {
+  display: none;
+}
 
 /*Footer*/
 .site-footer {
@@ -259,5 +262,207 @@ a {
   margin-right: 5px;
 }
 .site-footer span {
-  font-weight: bold;
+  /* font-weight: bold; */
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+  }
+  .body-wrapper {
+    display: block;
+    width: auto;
+    justify-content: center;
+  }
+
+  .Head-replace {
+    display: none;
+  }
+
+  /*dashboard*/
+  .dashboard-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  /*main content*/
+  .Intro-head {
+    padding: 3px 5px 0px 5px;
+    width: auto;
+    margin: 0px;
+  }
+  .Welcome-note {
+    border: 1px solid var(--grey);
+    padding-bottom: 0px;
+    width: auto;
+    height: 130px;
+    margin-top: 2px;
+    padding: 0px 10px;
+    background: var(--green);
+    border-radius: 10px;
+  }
+  .Welcome-note .Welcome-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--surface);
+    margin-bottom: 0px;
+    text-transform: capitalize;
+  }
+  .mini-welcome {
+    color: var(--surface);
+    font-size: 0.8rem;
+  }
+
+  /*cards section*/
+  .card-wrapper {
+    width: auto;
+    padding: 0px 15px;
+  }
+  .cards-section {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  .b1 {
+    display: none;
+  }
+  .balance-card {
+    grid-column: span 2;
+    padding: 15px 15px 0px 15px;
+  }
+  .b2 {
+    display: flex;
+  }
+  .Bcard-tt {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 9px;
+    font-size: 0.9rem;
+  }
+  .Bcard-det {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .withdraw-card {
+    font-size: 1rem;
+    margin-top: 10px;
+    background: var(--green);
+    width: 95%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--surface);
+  }
+  .card {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 8px;
+  }
+  .card-tt,
+  .mini-det {
+    font-size: 0.9rem;
+  }
+  .card-det {
+    font-size: 1.5rem;
+  }
+
+  /*referal sect*/
+  .referal-sect {
+    width: 100%;
+    padding: 0px;
+  }
+  .refmini-sect {
+    width: 100%;
+    padding: 15px 10px 7px 10px;
+  }
+  .refmini-tt {
+    font-size: 0.9rem;
+  }
+  .referal-sect input {
+    border: 1px solid var(--grey);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  #copyBtn {
+    width: 95%;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  /*details section*/
+  .Recent-act {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 91%;
+    margin-bottom: 20px;
+    height: 350px;
+    overflow-y: scroll;
+  }
+  .recent-tt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+  }
+  .recent-act {
+    font-weight: bold;
+    font-size: 1.13rem;
+    color: var(--green-dark);
+    margin-bottom: 15px;
+  }
+  .view-all {
+    font-size: 0.9rem;
+    position: relative;
+    right: 10px;
+    color: var(--green);
+  }
+  .rec-mini {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--grey);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .rec-det {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    border-bottom: 1px solid var(--grey);
+    font-size: 0.8rem;
+  }
+  .site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 10px 0px;
+    border-top: 1px solid var(--grey);
+    font-size: 0.7rem;
+  }
+  .brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }

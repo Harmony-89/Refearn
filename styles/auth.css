@@ -98,6 +98,19 @@ a {
   border: 1px solid var(--green);
   box-shadow: 5px 5px 20px var(--grey);
 }
+.Button {
+  background: var(--green);
+  width: 350px;
+  padding: 5px 0px;
+  color: var(--canvas);
+  text-transform: capitalize;
+  border-radius: 20px;
+  margin: 15px 0px;
+  transition: all 0.3s Linear linear;
+}
+.Button:hover {
+  background: var(--green-dark);
+}
 .head {
   font-size: 1.5rem;
   font-weight: bold;

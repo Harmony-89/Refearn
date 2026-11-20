@@ -33,42 +33,47 @@
             <section class="card-wrapper">
                 <section class="cards-section">
                     <div class="balance-card card">
-                        <p class="card-tt">Available balance</p>
-                        <p class="card-det">ksh 560</p>
+                        <p class="card-tt b1">Available balance</p>
+                        <div class="Bcard-tt b2">Available balance:
+                            <div class="Bcard-det b2">ksh 560</div>
+                        </div>
+                        <p class="card-det b1">ksh 560</p>
                         <a href="withdrawal.php" class="withdraw-card">Request withdrawal</a>
                     </div>
                     <div class="total-card card">
-                        <p class="card-tt">Total rewards</p>
-                        <p class="card-det">ksh 6350</p>
-                        <p class="mini-det">All rewards earned</p>
+                        <div class="card-tt">Total rewards</div>
+                        <div class="card-det">ksh 6350</div>
+                        <div class="mini-det">All rewards earned</div>
                     </div>
                     <div class="total-card card">
-                        <p class="card-tt">Tasks completed</p>
-                        <p class="card-det">13</p>
-                        <p class="mini-det"></p>
+                        <div class="card-tt">Tasks completed</div>
+                        <div class="card-det">13</div>
+                        <div class="mini-det"></div>
                     </div>
                     <div class="ref-card card">
-                        <p class="card-tt">Successful referals</p>
-                        <p class="card-det">30</p>
-                        <p class="mini-det">+2 this month</p>
+                        <div class="card-tt">Successful referals</div>
+                        <div class="card-det">30</div>
+                        <div class="mini-det">+2 this month</div>
                     </div>
                     <div class="pending-card card">
-                        <p class="card-tt">Pending referals</p>
-                        <p class="card-det">4</p>
-                        <p class="mini-det"> Awaiting approval</p>
+                        <div class="card-tt">Pending referals</div>
+                        <div class="card-det">4</div>
+                        <div class="mini-det"> Awaiting approval</div>
                     </div>
                 </section>
                 <section class="referal-sect">
-                    <p class="Referal-tt">Your referal link</p>
-                    <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
-                    <input type="text" id="referralLink" value=" <?php
-                                                                    $username = "Henry";
-                                                                    $webUrl = "https://refearn.com/register.php?ref=";
-                                                                    $randomCode = strtoupper(bin2hex(random_bytes(3)));
-                                                                    $referralCode = $webUrl . strtoupper($username) . $randomCode;
-                                                                    echo $referralCode
-                                                                    ?>">
-                    <button id="copyBtn">Copy link</button>
+                    <div class="refmini-sect">
+                        <p class="Referal-tt">Your referal link</p>
+                        <p class="refmini-tt">Earn ksh 300 per 10 successful referals</p>
+                        <input type="text" id="referralLink" value=" <?php
+                                                                        $username = "Henry";
+                                                                        $webUrl = "https://refearn.com/register.php?ref=";
+                                                                        $randomCode = strtoupper(bin2hex(random_bytes(3)));
+                                                                        $referralCode = $webUrl . strtoupper($username) . $randomCode;
+                                                                        echo $referralCode
+                                                                        ?>">
+                        <button id="copyBtn">Copy link</button>
+                    </div>
                 </section>
                 <Section class="Recent-act">
                     <div class="recent-tt">
@@ -112,11 +117,14 @@
                     </div>
                 </section>
             </section>
-            <footer class="site-footer">
-                <a class="brand" href="index.html">
-                    <span class="brand-mark">R</span> ReferEarn</a>
-                <span>© 2026 ReferEarn</span>
-            </footer>
+            <section class="site-footer">
+                <!-- <a class="brand" href="dashboard.php"> -->
+                <div class="brand">
+                    <div class="brand-mark">R</div> ReferEarn
+                </div>
+                <!-- </a> -->
+                <div>© 2026 ReferEarn</div>
+            </Section>
         </Section>
     </section>
 

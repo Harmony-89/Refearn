@@ -147,6 +147,19 @@ a {
   width: 88%;
   margin-bottom: 50px;
   padding-bottom: 30px;
+  height: 350px;
+  overflow-y: scroll;
+}
+.Recent-plat {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey);
+  border-radius: 20px;
+  padding: 5px 30px;
+  width: 88%;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
 }
 .recent-tt {
   display: flex;
@@ -197,4 +210,122 @@ a {
   background: var(--amber);
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .Head-replace {
+    display: none;
+  }
+  .body-wrapper {
+    display: block;
+  }
+  /*main content*/
+  .dashboard-wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden; */
+  }
+  .Intro-head {
+    padding: 3px 5px 0px 5px;
+    width: auto;
+    margin: 0px;
+  }
+  .Welcome-note {
+    border: 1px solid var(--grey);
+    padding-bottom: 0px;
+    width: auto;
+    height: 130px;
+    margin-top: 2px;
+    padding: 0px 10px;
+    background: var(--green);
+    border-radius: 10px;
+  }
+  .Welcome-note .Welcome-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--surface);
+    margin-bottom: 0px;
+    text-transform: capitalize;
+  }
+  .mini-welcome {
+    color: var(--surface);
+    font-size: 0.8rem;
+  }
+
+  /*cards section*/
+  .card-wrapper {
+    width: auto;
+    padding: 0px 15px;
+  }
+  .cards-section {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  .card-tt,
+  .mini-det {
+    font-size: 0.8rem;
+  }
+  .card-det {
+    font-size: 1.5rem;
+  }
+
+  /*referal sect*/
+  .referal-sect {
+    width: auto;
+    padding: 10px;
+  }
+  .refmini-tt {
+    font-size: 0.8rem;
+  }
+  #referralLink {
+    width: auto;
+  } /*details section*/
+  .Recent-act {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    padding: 0px 10px;
+    width: auto;
+    margin-bottom: 20px;
+    height: 350px;
+    overflow-y: scroll;
+  }
+  .recent-tt {
+    margin-bottom: 10px;
+  }
+  .recent-act {
+    font-weight: bold;
+    font-size: 1.13rem;
+  }
+  .rec-mini {
+    margin-top: 0px;
+    display: flex;
+    gap: 5px;
+    padding: 0px;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+  }
+  .rec-mini p {
+    border: 1px solid var(--grey);
+    padding: 10px;
+    border-radius: 15px;
+    background: var(--amber);
+  }
+  .rec-det {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    border-bottom: 1px solid var(--grey);
+    font-size: 0.8rem;
+  }
+  .mini-recwrapper {
+    margin-left: 10px;
+  }
 }

@@ -31,14 +31,14 @@
                     <div class="logwrapper">
                         <div class="head">Welcome Back</div>
                         <div class="Input">
-                            <input type="text" name="firstName" id="username" class="accept" required>
-                            <div class="enterM lable">Firstname</div>
+                            <input type="text" name="firstName" id="username" class="accept" required placeholder="Email">
+                            <div class="enterM lable">Enter you Email</div>
                         </div>
                         <div class="Input">
-                            <input type="password" name="password" id="password" class="accept" required>
+                            <input type="password" name="password" id="password" class="accept" required placeholder="password">
                             <div class="enterP lable">Enter your password</div>
                         </div>
-                        <button class="Submit-btn">sing up</button>
+                        <button class="Submit-btn Button">Log in</button>
                         </br>
                         <div class="signin">
                             <span>Don't have an account?
@@ -70,7 +70,7 @@
                             <input type="password" name="password" id="password" class="accept" required>
                             <div class="enterP lable">Enter your password</div>
                         </div>
-                        <button class="Submit-btn">sing up</button>
+                        <button class="Submit-btn Button">sing up</button>
                         </br>
                         <div class="signin">
                             <span>Already have an account?
